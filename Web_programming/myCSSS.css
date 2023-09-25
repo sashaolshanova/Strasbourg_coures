@@ -1,0 +1,12 @@
+body {/*font-family: Arial;*/ font-family: 'Fuggles', cursive; font-size:28pt;}
+p {text-align: justify;}
+.red {color:red;}
+.retrait {text-indent: 25px;}
+#para3 {position:absolute}
+/*a:hover {border:2px orange solid; border-radius: 5px} */
+table {table-layout: auto; width: 600px; border: 1px solid black; border-collapse: collapse; }
+th, td {border: 1px solid black; padding: 3px; }
+
+/*p a:nth-child(2): hover {font-weight: bold;} CHECK AGAIN*/
+p a:nth-of-type(2):hover {font-weight: bold;}
+a[target] {color:red;}
